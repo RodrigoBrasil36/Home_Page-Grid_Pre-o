@@ -118,6 +118,7 @@ button:hover{
         flex-direction: column;
     }
     .cabecalho{
+        margin-top: 10px;
         height: 290px;
         width: 295px;
     }   
