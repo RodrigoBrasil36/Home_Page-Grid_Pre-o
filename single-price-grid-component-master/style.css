@@ -114,11 +114,13 @@ button:hover{
     main{
         padding: 40px 20px 0 20px;
     }
+    body{
+        margin-top: 20px;
+    }
     .corpo{
         flex-direction: column;
     }
     .cabecalho{
-        margin-top: 10px;
         height: 290px;
         width: 295px;
     }   
