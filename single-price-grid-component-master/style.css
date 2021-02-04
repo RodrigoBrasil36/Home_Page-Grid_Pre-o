@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+main{
+    height: 97vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.cabecalho{
+    height: 195px;
+    width: 580px;
+    background: white;
+    padding: 2rem;
+
+    border-radius: 0.55rem 0.55rem 0 0;
+}
+.cabecalho h2{
+    color:hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+.cabecalho h3{
+    color: hsl(71, 73%, 54%);
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.cabecalho h4{
+    color: hsl(218, 22%, 67%);
+    margin-top: 15px;
+    margin-right: 30px;
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.corpo{ 
+    display: flex;
+    color: white;
+
+}
+.left{
+    height: 240px;
+    width: 295px;
+    padding: 2rem;
+
+    background: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 0.55rem;
+}
+.left .preco{
+    display: flex;
+    margin-top: 20px;
+}
+.preco span{
+    display: flex;
+    align-items: center;
+    color: hsl(204, 43%, 93%);
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.left h4{
+    margin-top: 13px;
+    font-size: 16px;
+    font-weight: 300;
+}
+button{
+    height: 42px;
+    width: 215px;
+    margin-top: 28px;
+    background:  hsl(71, 73%, 54%);
+    color: white;
+    box-shadow: 0 0 20px 0 rgba(51, 51, 51, 0.672);
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+button:hover{
+    background: hsl(71, 95%, 54%);
+}
+.right{
+    height: 240px;
+    width: 285px;
+    padding: 2rem;
+    background:hsl(179, 64%, 46%);
+    border-radius: 0 0 0.55rem 0;
+}
+.right h5{
+    margin-top: 17px;
+    line-height: 19.5px;
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+}
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+    color:hsl(179, 62%, 43%);
+}
+@media(max-width:800){
+    
+}
