@@ -110,6 +110,28 @@ button:hover{
 .attribution a {
     color:hsl(179, 62%, 43%);
 }
-@media(max-width:800){
+@media(max-width:800px){
+    main{
+        padding: 40px 20px 0 20px;
+    }
+    .corpo{
+        flex-direction: column;
+    }
+    .cabecalho{
+        height: 290px;
+        width: 295px;
+    }   
+    .left{
+        height: 225px;
+        width: 295px;
+        border-radius: 0;
+
+    }
+    .right{
+        height: 220px;
+        width: 295px;
+        border-radius: 0 0 0.4rem 0.40rem;
+       
+    }
     
 }
