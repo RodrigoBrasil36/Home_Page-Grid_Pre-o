@@ -12,7 +12,7 @@ body{
     font-family: 'Karla', sans-serif;
 }
 main{
-    height: 97vh;
+    height: 97%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -112,10 +112,10 @@ button:hover{
 }
 @media(max-width:800px){
     main{
-        padding: 40px 20px 0 20px;
+        padding: 40px 20px 1rem 20px;
     }
     body{
-        margin-top: 20px;
+        margin-top: 50px;
     }
     .corpo{
         flex-direction: column;
@@ -134,7 +134,9 @@ button:hover{
         height: 220px;
         width: 295px;
         border-radius: 0 0 0.4rem 0.40rem;
-       
     }
-    
+    footer{
+        padding-top: 1.5rem;
+
+    }
 }
